@@ -1,0 +1,8 @@
+---
+title: "Food"
+---
+
+Recipes on our food menu.
+
+- [Pizza](pizza.qmd)
+- [Pancakes](pancakes.qmd)

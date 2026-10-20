@@ -1,0 +1,13 @@
+---
+title: "Sandbox Cafe"
+---
+
+Welcome to the Sandbox Cafe, a tiny cafe whose menu lives on GitHub.
+Whatever is on `main` is what the chefs cook.
+
+**Want something on the menu?**
+[File an issue](https://github.com/ran-codes/demo-cafe-website/issues/new) and an agent will open a pull request for you.
+
+- [Food](food/index.qmd)
+- [Drinks](drinks/index.qmd)
+- [Code](code/index.qmd), digital food for hungry agents

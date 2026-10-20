@@ -1,0 +1,94 @@
+# Adapted from Drexel-UHC/cdc-correctional-facilities-hcv/.github/workflows/quarto.yml
+#
+# Two jobs:
+#   - quarto-check  — pull_request → render only (the status check PRs must pass)
+#   - quarto-deploy — push to main, or a manual run on main → render and publish to gh-pages
+#
+# Both jobs are scoped to quarto/ (and this file) by a paths-filter step inside the job, not a
+# workflow-level `paths:` filter: a required check skipped that way never reports and blocks
+# the PR forever. A change outside quarto/ passes without rendering or publishing.
+#
+# No R or Python install: every page is plain markdown and `execute: enabled: false` in
+# _quarto.yml guarantees CI never executes code.
+
+name: Quarto
+
+on:
+  pull_request:
+  push:
+    branches: main
+  workflow_dispatch:
+
+concurrency:
+  group: quarto-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  quarto-check:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Detect quarto/ changes
+        id: changes
+        uses: dorny/paths-filter@v4
+        with:
+          filters: |
+            quarto:
+              - 'quarto/**'
+              - '.github/workflows/quarto.yml'
+
+      - name: Set up Quarto
+        if: steps.changes.outputs.quarto == 'true'
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.18
+
+      - name: Render
+        if: steps.changes.outputs.quarto == 'true'
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          path: quarto
+
+  quarto-deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      # On push, paths-filter compares against the previous commit on main. A manual run
+      # always deploys — from main only; the job guard skips any other branch.
+      - name: Detect quarto/ changes
+        id: changes
+        if: github.event_name == 'push'
+        uses: dorny/paths-filter@v4
+        with:
+          filters: |
+            quarto:
+              - 'quarto/**'
+              - '.github/workflows/quarto.yml'
+
+      - name: Set up Quarto
+        if: github.event_name == 'workflow_dispatch' || steps.changes.outputs.quarto == 'true'
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.18
+
+      - name: Render and publish
+        if: github.event_name == 'workflow_dispatch' || steps.changes.outputs.quarto == 'true'
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+          path: quarto
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
