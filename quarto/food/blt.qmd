@@ -1,0 +1,16 @@
+---
+title: "BLT Sandwich"
+---
+
+## Ingredients
+
+- Bread
+- Bacon
+- Lettuce
+- Tomato
+
+## Instructions
+
+- Cook bacon
+- Toast bread
+- Stack and slice

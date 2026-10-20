@@ -1,0 +1,16 @@
+---
+title: "Brownie"
+---
+
+## Ingredients
+
+- Chocolate
+- Butter
+- Sugar
+- Egg
+
+## Instructions
+
+- Melt chocolate and butter
+- Mix in sugar and egg
+- Bake

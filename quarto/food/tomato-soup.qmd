@@ -1,0 +1,16 @@
+---
+title: "Tomato Soup"
+---
+
+## Ingredients
+
+- Tomatoes
+- Onion
+- Vegetable stock
+- Cream
+
+## Instructions
+
+- Saute onion
+- Simmer with tomatoes and stock
+- Blend and stir in cream

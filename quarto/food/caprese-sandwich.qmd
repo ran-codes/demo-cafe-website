@@ -1,0 +1,16 @@
+---
+title: "Caprese Sandwich"
+---
+
+## Ingredients
+
+- Baguette
+- Mozzarella
+- Tomato
+- Basil
+
+## Instructions
+
+- Slice ingredients
+- Layer on baguette
+- Drizzle olive oil

@@ -1,0 +1,16 @@
+---
+title: "Banana Bread"
+---
+
+## Ingredients
+
+- Ripe bananas
+- Flour
+- Sugar
+- Egg
+
+## Instructions
+
+- Mash bananas
+- Mix batter
+- Bake

@@ -1,0 +1,17 @@
+---
+title: "Club Sandwich"
+---
+
+## Ingredients
+
+- Bread
+- Turkey
+- Bacon
+- Lettuce
+- Tomato
+
+## Instructions
+
+- Toast bread
+- Layer fillings
+- Stack and slice

@@ -1,0 +1,16 @@
+---
+title: "Caesar Salad"
+---
+
+## Ingredients
+
+- Romaine
+- Parmesan
+- Croutons
+- Caesar dressing
+
+## Instructions
+
+- Chop romaine
+- Toss with dressing
+- Top with parmesan and croutons

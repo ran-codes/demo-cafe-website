@@ -1,0 +1,16 @@
+---
+title: "Blueberry Muffin"
+---
+
+## Ingredients
+
+- Flour
+- Sugar
+- Blueberries
+- Egg
+
+## Instructions
+
+- Mix batter
+- Fold in berries
+- Bake
