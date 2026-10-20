@@ -1,38 +1,52 @@
 [
   {
-    "objectID": "food/pizza.html",
-    "href": "food/pizza.html",
-    "title": "Pizza",
+    "objectID": "drinks/latte.html",
+    "href": "drinks/latte.html",
+    "title": "Latte",
     "section": "",
-    "text": "Dough\nTomato sauce\nPineapples\nHam"
+    "text": "1 shot espresso\nSteamed milk\nLight foam"
   },
   {
-    "objectID": "food/pizza.html#ingredients",
-    "href": "food/pizza.html#ingredients",
-    "title": "Pizza",
+    "objectID": "drinks/latte.html#ingredients",
+    "href": "drinks/latte.html#ingredients",
+    "title": "Latte",
     "section": "",
-    "text": "Dough\nTomato sauce\nPineapples\nHam"
+    "text": "1 shot espresso\nSteamed milk\nLight foam"
   },
   {
-    "objectID": "food/pizza.html#instructions",
-    "href": "food/pizza.html#instructions",
-    "title": "Pizza",
+    "objectID": "drinks/latte.html#instructions",
+    "href": "drinks/latte.html#instructions",
+    "title": "Latte",
     "section": "Instructions",
-    "text": "Instructions\n\nCombine\nCook"
+    "text": "Instructions\n\nPull shot\nSteam milk\nPour"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sandbox Cafe",
+    "objectID": "food/pancakes.html",
+    "href": "food/pancakes.html",
+    "title": "Pancakes",
     "section": "",
-    "text": "Welcome to the Sandbox Cafe, a tiny cafe whose menu lives on GitHub. Whatever is on main is what the chefs cook.\nWant something on the menu? File an issue and an agent will open a pull request for you.\n\nFood\nDrinks\nCode, digital food for hungry agents"
+    "text": "Aldi’s pancake mix\nWhole milk\n1 egg"
   },
   {
-    "objectID": "drinks/index.html",
-    "href": "drinks/index.html",
-    "title": "Drinks",
+    "objectID": "food/pancakes.html#ingredients",
+    "href": "food/pancakes.html#ingredients",
+    "title": "Pancakes",
     "section": "",
-    "text": "Drinks served at our cafe.\nNothing here yet. File an issue to put the first drink on the menu."
+    "text": "Aldi’s pancake mix\nWhole milk\n1 egg"
+  },
+  {
+    "objectID": "food/pancakes.html#instructions",
+    "href": "food/pancakes.html#instructions",
+    "title": "Pancakes",
+    "section": "Instructions",
+    "text": "Instructions\n\nMix\nFry"
+  },
+  {
+    "objectID": "food/index.html",
+    "href": "food/index.html",
+    "title": "Food",
+    "section": "",
+    "text": "Recipes on our food menu.\n\nPizza\nPancakes"
   },
   {
     "objectID": "code/index.html",
@@ -56,31 +70,38 @@
     "text": "waffles_code.R\nprint(\"Waffles\")"
   },
   {
-    "objectID": "food/index.html",
-    "href": "food/index.html",
-    "title": "Food",
+    "objectID": "drinks/index.html",
+    "href": "drinks/index.html",
+    "title": "Drinks",
     "section": "",
-    "text": "Recipes on our food menu.\n\nPizza\nPancakes"
+    "text": "Drinks served at our cafe.\n\nLatte"
   },
   {
-    "objectID": "food/pancakes.html",
-    "href": "food/pancakes.html",
-    "title": "Pancakes",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sandbox Cafe",
     "section": "",
-    "text": "Aldi’s pancake mix\nWhole milk\n1 egg"
+    "text": "Welcome to the Sandbox Cafe, a tiny cafe whose menu lives on GitHub. Whatever is on main is what the chefs cook.\nWant something on the menu? File an issue and an agent will open a pull request for you.\n\nFood\nDrinks\nCode, digital food for hungry agents"
   },
   {
-    "objectID": "food/pancakes.html#ingredients",
-    "href": "food/pancakes.html#ingredients",
-    "title": "Pancakes",
+    "objectID": "food/pizza.html",
+    "href": "food/pizza.html",
+    "title": "Pizza",
     "section": "",
-    "text": "Aldi’s pancake mix\nWhole milk\n1 egg"
+    "text": "Dough\nTomato sauce\nPineapples\nHam"
   },
   {
-    "objectID": "food/pancakes.html#instructions",
-    "href": "food/pancakes.html#instructions",
-    "title": "Pancakes",
+    "objectID": "food/pizza.html#ingredients",
+    "href": "food/pizza.html#ingredients",
+    "title": "Pizza",
+    "section": "",
+    "text": "Dough\nTomato sauce\nPineapples\nHam"
+  },
+  {
+    "objectID": "food/pizza.html#instructions",
+    "href": "food/pizza.html#instructions",
+    "title": "Pizza",
     "section": "Instructions",
-    "text": "Instructions\n\nMix\nFry"
+    "text": "Instructions\n\nCombine\nCook"
   }
 ]

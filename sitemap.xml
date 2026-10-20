@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ran-codes.github.io/demo-cafe-website/food/pizza.html</loc>
-    <lastmod>2026-10-20T13:57:05.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ran-codes.github.io/demo-cafe-website/index.html</loc>
-    <lastmod>2026-10-20T13:57:05.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ran-codes.github.io/demo-cafe-website/drinks/index.html</loc>
-    <lastmod>2026-10-20T13:57:05.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ran-codes.github.io/demo-cafe-website/code/index.html</loc>
-    <lastmod>2026-10-20T13:57:05.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ran-codes.github.io/demo-cafe-website/food/index.html</loc>
-    <lastmod>2026-10-20T13:57:05.758Z</lastmod>
+    <loc>https://ran-codes.github.io/demo-cafe-website/drinks/latte.html</loc>
+    <lastmod>2026-10-20T14:29:45.359Z</lastmod>
   </url>
   <url>
     <loc>https://ran-codes.github.io/demo-cafe-website/food/pancakes.html</loc>
-    <lastmod>2026-10-20T13:57:05.758Z</lastmod>
+    <lastmod>2026-10-20T14:29:45.360Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ran-codes.github.io/demo-cafe-website/food/index.html</loc>
+    <lastmod>2026-10-20T14:29:45.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ran-codes.github.io/demo-cafe-website/code/index.html</loc>
+    <lastmod>2026-10-20T14:29:45.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ran-codes.github.io/demo-cafe-website/drinks/index.html</loc>
+    <lastmod>2026-10-20T14:29:45.359Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ran-codes.github.io/demo-cafe-website/index.html</loc>
+    <lastmod>2026-10-20T14:29:45.360Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ran-codes.github.io/demo-cafe-website/food/pizza.html</loc>
+    <lastmod>2026-10-20T14:29:45.360Z</lastmod>
   </url>
 </urlset>
