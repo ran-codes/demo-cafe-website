@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "**/index.qmd"
+    - "food/*.qmd"
+    - "drinks/*.qmd"
+
+website:
+  title: "Sandbox Cafe"
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: food/index.qmd
+        text: Food
+      - href: drinks/index.qmd
+        text: Drinks
+      - href: code/index.qmd
+        text: Code
+    right:
+      - icon: github
+        href: https://github.com/ran-codes/demo-cafe-website
+        aria-label: GitHub
+
+format:
+  html:
+    theme: minty
+    toc: false
+
+# Pages are plain markdown. Nothing is ever executed, locally or in CI.
+execute:
+  enabled: false

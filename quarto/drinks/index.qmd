@@ -1,0 +1,7 @@
+---
+title: "Drinks"
+---
+
+Drinks served at our cafe.
+
+Nothing here yet. [File an issue](https://github.com/ran-codes/demo-cafe-website/issues/new) to put the first drink on the menu.
