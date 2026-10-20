@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "food/pizza.html",
+    "href": "food/pizza.html",
+    "title": "Pizza",
+    "section": "",
+    "text": "Dough\nTomato sauce\nPineapples\nHam"
+  },
+  {
+    "objectID": "food/pizza.html#ingredients",
+    "href": "food/pizza.html#ingredients",
+    "title": "Pizza",
+    "section": "",
+    "text": "Dough\nTomato sauce\nPineapples\nHam"
+  },
+  {
+    "objectID": "food/pizza.html#instructions",
+    "href": "food/pizza.html#instructions",
+    "title": "Pizza",
+    "section": "Instructions",
+    "text": "Instructions\n\nCombine\nCook"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sandbox Cafe",
+    "section": "",
+    "text": "Welcome to the Sandbox Cafe, a tiny cafe whose menu lives on GitHub. Whatever is on main is what the chefs cook.\nWant something on the menu? File an issue and an agent will open a pull request for you.\n\nFood\nDrinks\nCode, digital food for hungry agents"
+  },
+  {
+    "objectID": "drinks/index.html",
+    "href": "drinks/index.html",
+    "title": "Drinks",
+    "section": "",
+    "text": "Drinks served at our cafe.\nNothing here yet. File an issue to put the first drink on the menu."
+  },
+  {
+    "objectID": "code/index.html",
+    "href": "code/index.html",
+    "title": "Code",
+    "section": "",
+    "text": "Digital food for hungry agents. These scripts are shown, not run."
+  },
+  {
+    "objectID": "code/index.html#make_cupcake",
+    "href": "code/index.html#make_cupcake",
+    "title": "Code",
+    "section": "make_cupcake()",
+    "text": "make_cupcake()\n# Cupcake Script\n# How to run: open this file in RStudio and click \"Source\",\n# or from the R console run: source(\"code/cupcake_code.R\")\n\nlibrary(tidyverse)\n\nmake_cupcake &lt;- function(n_cupcakes = 1) {\n  ingredients &lt;- c(\"flour\", \"sugar\", \"milk\", \"chocolate\")\n\n  cat(\"Mixing:\", paste(ingredients, collapse = \", \"), \"\\n\")\n  cupcakes &lt;- strrep(\"\\U0001F9C1\", 12 * n_cupcakes)\n  print(paste0(\"Cupcakes complete! \", cupcakes))\n}\n\nmake_cupcake(n_cupcakes = 21)"
+  },
+  {
+    "objectID": "code/index.html#waffles_code.r",
+    "href": "code/index.html#waffles_code.r",
+    "title": "Code",
+    "section": "waffles_code.R",
+    "text": "waffles_code.R\nprint(\"Waffles\")"
+  },
+  {
+    "objectID": "food/index.html",
+    "href": "food/index.html",
+    "title": "Food",
+    "section": "",
+    "text": "Recipes on our food menu.\n\nPizza\nPancakes"
+  },
+  {
+    "objectID": "food/pancakes.html",
+    "href": "food/pancakes.html",
+    "title": "Pancakes",
+    "section": "",
+    "text": "Aldi’s pancake mix\nWhole milk\n1 egg"
+  },
+  {
+    "objectID": "food/pancakes.html#ingredients",
+    "href": "food/pancakes.html#ingredients",
+    "title": "Pancakes",
+    "section": "",
+    "text": "Aldi’s pancake mix\nWhole milk\n1 egg"
+  },
+  {
+    "objectID": "food/pancakes.html#instructions",
+    "href": "food/pancakes.html#instructions",
+    "title": "Pancakes",
+    "section": "Instructions",
+    "text": "Instructions\n\nMix\nFry"
+  }
+]
