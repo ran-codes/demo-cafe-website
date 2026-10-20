@@ -5,3 +5,16 @@ title: "Drinks"
 Drinks served at our cafe.
 
 - [Latte](latte.qmd)
+
+### Vegan options
+
+- [Oat Milk Latte](oat-milk-latte.qmd)
+- [Almond Milk Cappuccino](almond-milk-cappuccino.qmd)
+- [Soy Milk Mocha](soy-milk-mocha.qmd)
+- [Coconut Chai Latte](coconut-chai-latte.qmd)
+- [Iced Matcha Latte](iced-matcha-latte.qmd)
+- [Cold Brew](cold-brew.qmd)
+- [Turmeric Latte](turmeric-latte.qmd)
+- [Vegan Hot Chocolate](vegan-hot-chocolate.qmd)
+- [Soy Chai Latte](soy-chai-latte.qmd)
+- [Iced Oat Milk Americano](iced-oat-americano.qmd)

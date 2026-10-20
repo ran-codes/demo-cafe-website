@@ -1,0 +1,15 @@
+---
+title: "Omelette"
+---
+
+## Ingredients
+
+- Eggs
+- Cheese
+- Butter
+
+## Instructions
+
+- Whisk eggs
+- Cook in pan
+- Fold with cheese
